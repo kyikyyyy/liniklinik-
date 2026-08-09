@@ -52,3 +52,17 @@ section { padding: 3rem 1.5rem; }
   margin-bottom: 1rem;
   border: 3px solid #238636;
 }
+
+.social-icons {
+  display: flex;
+  gap: 1.5rem;
+  margin-top: 1rem;
+}
+.social-icons a {
+  color: #e6edf3;
+  font-size: 1.8rem;
+  transition: color 0.2s;
+}
+.social-icons a:hover {
+  color: #58a6ff;
+}
