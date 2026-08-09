@@ -1,0 +1,45 @@
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+body {
+  background: #0d1117;
+  color: #e6edf3;
+  font-family: system-ui, sans-serif;
+  line-height: 1.6;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 1.5rem;
+  border-bottom: 1px solid #21262d;
+}
+
+.nav-links { display: flex; gap: 1rem; list-style: none; }
+.nav-links a { color: #e6edf3; text-decoration: none; }
+
+section { padding: 3rem 1.5rem; }
+
+.hero { text-align: center; padding-top: 5rem; }
+.hero h1 { font-size: 2rem; margin-bottom: 0.5rem; }
+
+.btn {
+  display: inline-block;
+  margin-top: 1.5rem;
+  padding: 0.6rem 1.4rem;
+  background: #238636;
+  color: white;
+  text-decoration: none;
+  border-radius: 6px;
+}
+
+.project-card {
+  background: #161b22;
+  padding: 1.2rem;
+  border-radius: 8px;
+  margin-bottom: 1rem;
+  border: 1px solid #21262d;
+}
+
+.contact ul { list-style: none; margin-top: 0.8rem; }
+.contact a { color: #58a6ff; }
